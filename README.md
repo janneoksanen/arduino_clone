@@ -1,2 +1,2 @@
 # arduino_clone
-Battery powered Arduino clone with EEPROM
+Battery powered Arduino clone with RTC clock and extraa EEPROM
