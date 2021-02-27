@@ -127,4 +127,15 @@ U 6039D755
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
 $EndSheet
+$Comp
+L JOO_Custom_Symbols:DS1337_JOO U?
+U 1 1 603A384A
+P 7200 2300
+F 0 "U?" H 7200 2481 50  0000 C CNN
+F 1 "DS1337_JOO" H 7200 2390 50  0000 C CNN
+F 2 "" H 7200 2500 50  0001 C CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/DS1337-DS1337C.pdf" H 7200 2500 50  0001 C CNN
+	1    7200 2300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
