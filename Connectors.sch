@@ -57,4 +57,16 @@ F 3 "~" H 3800 2400 50  0001 C CNN
 	1    3800 2400
 	1    0    0    -1  
 $EndComp
+Text HLabel 7850 4400 0    50   Output ~ 0
+MISO
+Text HLabel 7850 4500 0    50   BiDi ~ 0
+SCK
+Text HLabel 7850 4600 0    50   Output ~ 0
+RST
+Text HLabel 8350 4400 2    50   Input ~ 0
+Vcc
+Text HLabel 8350 4500 2    50   Input ~ 0
+MOSI
+Text HLabel 8350 4600 2    50   Input ~ 0
+GND
 $EndSCHEMATC

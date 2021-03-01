@@ -126,6 +126,12 @@ S 500  5500 2750 2200
 U 6039D755
 F0 "Connectors" 50
 F1 "Connectors.sch" 50
+F2 "MISO" O R 3250 5550 50 
+F3 "SCK" B R 3250 5650 50 
+F4 "RST" O R 3250 5750 50 
+F5 "Vcc" I R 3250 5850 50 
+F6 "MOSI" I R 3250 5950 50 
+F7 "GND" I R 3250 6050 50 
 $EndSheet
 $Comp
 L JOO_Custom_Symbols:DS1337_JOO U3
@@ -182,4 +188,112 @@ F 3 "" H 8500 3600 50  0001 C CNN
 	1    8500 3600
 	1    0    0    -1  
 $EndComp
+Text Label 3450 5550 0    50   ~ 0
+MISO
+Text Label 5350 3450 0    50   ~ 0
+MISO
+Wire Wire Line
+	5350 3450 5600 3450
+Wire Wire Line
+	3450 5550 3250 5550
+Text Label 3450 5650 0    50   ~ 0
+SCK
+Text Label 3450 5750 0    50   ~ 0
+RST
+Text Label 3450 5850 0    50   ~ 0
+Vcc
+Text Label 3450 5950 0    50   ~ 0
+MOSI
+Text Label 3450 6050 0    50   ~ 0
+GND
+Wire Wire Line
+	3250 5650 3450 5650
+Wire Wire Line
+	3250 5750 3450 5750
+Wire Wire Line
+	3250 5850 3450 5850
+Wire Wire Line
+	3250 5950 3450 5950
+Wire Wire Line
+	3250 6050 3400 6050
+Text Label 5350 3350 0    50   ~ 0
+MOSI
+Text Label 5350 3550 0    50   ~ 0
+SCK
+Wire Wire Line
+	5350 3550 5600 3550
+Wire Wire Line
+	5350 3350 5600 3350
+Text Label 5350 4250 0    50   ~ 0
+RST
+Wire Wire Line
+	5350 4250 5600 4250
+Text Label 6100 1900 1    50   ~ 0
+Vcc
+Wire Wire Line
+	6100 1900 6100 1950
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603D8A30
+P 6100 1950
+F 0 "#FLG?" H 6100 2025 50  0001 C CNN
+F 1 "PWR_FLAG" V 6100 2077 50  0000 L CNN
+F 2 "" H 6100 1950 50  0001 C CNN
+F 3 "~" H 6100 1950 50  0001 C CNN
+	1    6100 1950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6100 1950
+Wire Wire Line
+	6100 1950 6100 2050
+Text Label 6100 5300 3    50   ~ 0
+GND
+Wire Wire Line
+	6100 5300 6100 5200
+$Comp
+L power:PWR_FLAG #FLG?
+U 1 1 603D9EED
+P 6100 5200
+F 0 "#FLG?" H 6100 5275 50  0001 C CNN
+F 1 "PWR_FLAG" V 6100 5327 50  0000 L CNN
+F 2 "" H 6100 5200 50  0001 C CNN
+F 3 "~" H 6100 5200 50  0001 C CNN
+	1    6100 5200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6100 5200
+Wire Wire Line
+	6100 5200 6100 5150
+Wire Wire Line
+	6300 2050 6300 1950
+Wire Wire Line
+	6300 1950 6200 1950
+Wire Wire Line
+	6200 2050 6200 1950
+Connection ~ 6200 1950
+Wire Wire Line
+	6200 1950 6100 1950
+Wire Wire Line
+	6300 5150 6300 5200
+Wire Wire Line
+	6300 5200 6200 5200
+Wire Wire Line
+	6200 5150 6200 5200
+Connection ~ 6200 5200
+Wire Wire Line
+	6200 5200 6100 5200
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 603DBC07
+P 3400 6050
+F 0 "#PWR?" H 3400 5850 50  0001 C CNN
+F 1 "GNDPWR" H 3404 5896 50  0000 C CNN
+F 2 "" H 3400 6000 50  0001 C CNN
+F 3 "" H 3400 6000 50  0001 C CNN
+	1    3400 6050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3400 6050
+Wire Wire Line
+	3400 6050 3450 6050
 $EndSCHEMATC
