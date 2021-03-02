@@ -132,6 +132,16 @@ F4 "RST" O R 3250 5750 50
 F5 "Vcc" I R 3250 5850 50 
 F6 "MOSI" I R 3250 5950 50 
 F7 "GND" I R 3250 6050 50 
+F8 "Tx" O R 3250 6400 50 
+F9 "Rx" I R 3250 6500 50 
+F10 "SDA" B R 3250 6700 50 
+F11 "D2" B R 3250 6950 50 
+F12 "D3" B R 3250 7050 50 
+F13 "D4" B R 3250 7150 50 
+F14 "D5" B R 3250 7250 50 
+F15 "D6" B R 3250 7350 50 
+F16 "D7" B R 3250 7450 50 
+F17 "D8" B R 3250 7550 50 
 $EndSheet
 $Comp
 L JOO_Custom_Symbols:DS1337_JOO U3
@@ -296,4 +306,84 @@ $EndComp
 Connection ~ 3400 6050
 Wire Wire Line
 	3400 6050 3450 6050
+Text Label 3450 6400 0    50   ~ 0
+Tx
+Text Label 3450 6500 0    50   ~ 0
+Rx
+Text Label 3450 6700 0    50   ~ 0
+SDA
+Text Label 3450 6950 0    50   ~ 0
+D2
+Text Label 3450 7050 0    50   ~ 0
+D3
+Text Label 3450 7150 0    50   ~ 0
+D4
+Text Label 3450 7250 0    50   ~ 0
+D5
+Text Label 3450 7350 0    50   ~ 0
+D6
+Text Label 3450 7450 0    50   ~ 0
+D7
+Text Label 3450 7550 0    50   ~ 0
+D8
+Wire Wire Line
+	3450 6400 3250 6400
+Wire Wire Line
+	3450 6500 3250 6500
+Wire Wire Line
+	3450 6700 3250 6700
+Wire Wire Line
+	3450 6950 3250 6950
+Wire Wire Line
+	3450 7050 3250 7050
+Wire Wire Line
+	3450 7150 3250 7150
+Wire Wire Line
+	3450 7250 3250 7250
+Wire Wire Line
+	3450 7350 3250 7350
+Wire Wire Line
+	3450 7450 3250 7450
+Wire Wire Line
+	3450 7550 3250 7550
+Text Label 5400 2350 0    50   ~ 0
+D3
+Text Label 5400 2450 0    50   ~ 0
+D4
+Text Label 5400 2750 0    50   ~ 0
+D5
+Text Label 5400 2850 0    50   ~ 0
+D6
+Text Label 5400 2950 0    50   ~ 0
+D7
+Text Label 5350 4550 0    50   ~ 0
+D2
+Text Label 5400 3050 0    50   ~ 0
+D8
+Text Label 5350 4050 0    50   ~ 0
+SDA
+Text Label 5350 4350 0    50   ~ 0
+Rx
+Text Label 5350 4450 0    50   ~ 0
+Tx
+Wire Wire Line
+	5400 2350 5600 2350
+Wire Wire Line
+	5400 2450 5600 2450
+Wire Wire Line
+	5400 2750 5600 2750
+Wire Wire Line
+	5400 2850 5600 2850
+Wire Wire Line
+	5400 2950 5600 2950
+Wire Wire Line
+	5400 3050 5600 3050
+Wire Wire Line
+	5350 4050 5600 4050
+Wire Wire Line
+	5350 4350 5600 4350
+Wire Wire Line
+	5350 4450 5600 4450
+Wire Wire Line
+	5350 4550 5600 4550
 $EndSCHEMATC
