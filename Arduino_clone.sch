@@ -582,4 +582,34 @@ NoConn ~ 5600 3250
 Connection ~ 6800 1950
 Wire Wire Line
 	6800 1950 6300 1950
+Wire Notes Line
+	850  950  850  2800
+Wire Notes Line
+	850  2800 3000 2800
+Wire Notes Line
+	3000 2800 3000 950 
+Wire Notes Line
+	3000 950  850  950 
+Wire Notes Line
+	800  4650 3150 4650
+Wire Notes Line
+	3150 4650 3150 3100
+Wire Notes Line
+	3150 3100 800  3100
+Wire Notes Line
+	800  3100 800  4650
+Wire Notes Line
+	3850 1050 3850 5650
+Wire Notes Line
+	3850 5650 9000 5650
+Wire Notes Line
+	9000 5650 9000 1050
+Wire Notes Line
+	9000 1050 3850 1050
+Text Notes 900  1100 0    50   ~ 0
+Real time clock\n
+Text Notes 850  3200 0    50   ~ 0
+EEPROM
+Text Notes 3900 1200 0    50   ~ 0
+CPU
 $EndSCHEMATC

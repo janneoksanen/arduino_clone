@@ -103,4 +103,44 @@ Text HLabel 4650 4650 2    50   Input ~ 0
 GND
 Text HLabel 4650 4750 2    50   Input ~ 0
 Vcc
+Wire Notes Line
+	4300 3400 5050 3400
+Wire Notes Line
+	5050 3400 5050 2550
+Wire Notes Line
+	5050 2550 4300 2550
+Wire Notes Line
+	4300 2550 4300 3400
+Wire Notes Line
+	5750 2550 5750 3400
+Wire Notes Line
+	5750 3400 6500 3400
+Wire Notes Line
+	6500 2550 5750 2550
+Wire Notes Line
+	6500 2550 6500 3400
+Wire Notes Line
+	4300 3700 4300 5000
+Wire Notes Line
+	4300 5000 5050 5000
+Wire Notes Line
+	5050 5000 5050 3700
+Wire Notes Line
+	5050 3700 4300 3700
+Wire Notes Line
+	5400 4550 6650 4550
+Wire Notes Line
+	6650 4550 6650 3700
+Wire Notes Line
+	6650 3700 5400 3700
+Wire Notes Line
+	5400 3700 5400 4550
+Text Notes 4350 2650 0    50   ~ 0
+UART
+Text Notes 5800 2650 0    50   ~ 0
+I2C
+Text Notes 4300 3700 0    50   ~ 0
+GPIO
+Text Notes 5400 3800 0    50   ~ 0
+ISP Programmer
 $EndSCHEMATC
